@@ -1,0 +1,14 @@
+func cond(){
+    x = 3
+    if(x<5) {
+        return 'yes'
+    }
+    else {
+        return 'no'
+    }
+}
+
+func main(){
+    cond()
+    return
+}

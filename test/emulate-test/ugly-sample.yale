@@ -1,0 +1,22 @@
+func cond(){
+    var x = 3
+    var _return = ""
+    if(x<5) { _return = "yes"}
+    else { _return = "no" }
+    return _return
+}
+
+func main(){
+    var _return = ""
+    cond()
+    return _return
+}
+
+
+['FUNC','FUNC_NAME','LPAREN','PARAM','RPAREN','LBRACE',
+'VAR_DECLARE, VAR_NAME','ASSIGN','INT',
+'VAR_DECLARE, VAR_NAME','ASSIGN','STRING',
+'IF','LPAREN','VAR_NAME','LSS','INT','RPAREN','LBRACE', 'VAR_NAME', 'ASSIGN', "STRING",
+'ELSE','LBRACE','VAR_NAME','ASSIGN',"STRING",
+'RETURN', 'VAR_NAME', 'RBRACE',
+]
